@@ -40,4 +40,17 @@ int main(){
     cout << "Jumlah perulangan = " << perulanganWhile << endl;
     cout << "Nilai n terakhir = " << n << endl;
 
+    //Perulangan Do While dengan angka acak
+    cout << "Perulangan Do While" << endl;
+    srand(time(0));
+    n = rand() % 10;
+    cout << "Nilai awal n = " << n << endl;
+    do
+    {
+        cout << "nilai n = " << n << endl;
+        n = rand() % 10;
+        perulanganDo++;
+    } while (n < 7);
+    cout << "Jumlah perulangan = " << perulanganWhile << endl;
+    cout << "Nilai n terakhir = " << n << endl;
 }
