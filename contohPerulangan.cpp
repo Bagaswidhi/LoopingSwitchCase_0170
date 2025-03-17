@@ -14,14 +14,14 @@ int main(){
     cout << "perulangan for pencacah naik" << endl;
     for (n = 0; n < 5; n++)
     {
-        cout << "nilai n = " << n << "Selamat Datang" << endl;
+        cout << "nilai n = " << n << " Selamat Datang" << endl;
     }
     cout << "Nilai n terakhir = " << n << endl;
     cout << endl;
     //Perulangan dengan for pencacah turun
     for (n = 5; n > 0; n--)
     {
-        cout << "nilai n = " << n << "Selamat Datang" << endl;
+        cout << "nilai n = " << n << " Selamat Datang" << endl;
     }
     cout << "Nilai n terakhir = " << n << endl;
     cout << endl;
